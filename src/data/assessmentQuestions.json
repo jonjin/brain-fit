@@ -1,0 +1,42 @@
+{
+  "RBANS": {
+    "attention": [
+      {
+        "id": "att_1",
+        "type": "digit_span",
+        "instruction": "请重复以下数字序列",
+        "sequence": "3-7-2-9",
+        "timeLimit": 30
+      }
+    ],
+    "memory": [
+      {
+        "id": "mem_1",
+        "type": "word_list",
+        "instruction": "记住以下词汇",
+        "words": ["桌子", "汽车", "苹果", "书本", "电话"],
+        "displayTime": 10,
+        "recallDelay": 300
+      }
+    ],
+    "language": [
+      {
+        "id": "lang_1",
+        "type": "picture_naming",
+        "instruction": "说出图片中物品的名称",
+        "image": "/images/assessment/bicycle.png",
+        "correctAnswer": "自行车"
+      }
+    ]
+  },
+  "RBMT": {
+    "everyday_memory": [
+      {
+        "id": "rbmt_1",
+        "type": "appointment",
+        "instruction": "记住：明天下午3点在社区中心有健康讲座",
+        "checkTime": 600
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "shoppingItems": [
+    {
+      "id": "item_1",
+      "name": "苹果",
+      "image": "/images/apple.png",
+      "category": "水果"
+    },
+    {
+      "id": "item_2",
+      "name": "牛奶",
+      "image": "/images/milk.png",
+      "category": "乳制品"
+    },
+    {
+      "id": "item_3",
+      "name": "面包",
+      "image": "/images/bread.png",
+      "category": "主食"
+    },
+    {
+      "id": "item_4",
+      "name": "鸡蛋",
+      "image": "/images/eggs.png",
+      "category": "蛋白质"
+    },
+    {
+      "id": "item_5",
+      "name": "西红柿",
+      "image": "/images/tomato.png",
+      "category": "蔬菜"
+    },
+    {
+      "id": "item_6",
+      "name": "香蕉",
+      "image": "/images/banana.png",
+      "category": "水果"
+    },
+    {
+      "id": "item_7",
+      "name": "酸奶",
+      "image": "/images/yogurt.png",
+      "category": "乳制品"
+    },
+    {
+      "id": "item_8",
+      "name": "鸡肉",
+      "image": "/images/chicken.png",
+      "category": "肉类"
+    }
+  ],
+  "cardSets": [
+    {
+      "id": "set_1",
+      "difficulty": "easy",
+      "cards": [
+        { "id": "card_1", "content": "\uD83C\uDF1F", "pair": "card_2" },
+        { "id": "card_2", "content": "\uD83C\uDF1F", "pair": "card_1" },
+        { "id": "card_3", "content": "\uD83C\uDF19", "pair": "card_4" },
+        { "id": "card_4", "content": "\uD83C\uDF19", "pair": "card_3" },
+        { "id": "card_5", "content": "\u2600\uFE0F", "pair": "card_6" },
+        { "id": "card_6", "content": "\u2600\uFE0F", "pair": "card_5" },
+        { "id": "card_7", "content": "\uD83C\uDF08", "pair": "card_8" },
+        { "id": "card_8", "content": "\uD83C\uDF08", "pair": "card_7" }
+      ]
+    }
+  ],
+  "trainingSchedule": {
+    "sessionsPerWeek": 3,
+    "sessionDuration": 40,
+    "totalWeeks": 8
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "sessions": [
+    {
+      "id": "session_001",
+      "date": "2024-05-01",
+      "duration": 38,
+      "score": 82,
+      "averageConcentration": 0.68
+    },
+    {
+      "id": "session_002",
+      "date": "2024-05-04",
+      "duration": 42,
+      "score": 88,
+      "averageConcentration": 0.73
+    },
+    {
+      "id": "session_003",
+      "date": "2024-05-07",
+      "duration": 40,
+      "score": 91,
+      "averageConcentration": 0.77
+    }
+  ],
+  "network": {
+    "nodes": [
+      { "id": "prefrontal", "label": "前额叶", "strength": 0.72 },
+      { "id": "temporal", "label": "颞叶", "strength": 0.65 },
+      { "id": "parietal", "label": "顶叶", "strength": 0.58 }
+    ],
+    "links": [
+      { "source": "prefrontal", "target": "temporal", "value": 0.54 },
+      { "source": "prefrontal", "target": "parietal", "value": 0.49 },
+      { "source": "temporal", "target": "parietal", "value": 0.46 }
+    ]
+  }
+}
