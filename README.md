@@ -25,3 +25,4 @@ npm run build
 
 ## 目录结构
 详见 `brain-fit/` 下的源代码结构。
+# brain-fit
